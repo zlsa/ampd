@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/now_playing"
+
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <RelativeLayout
+    android:id="@id/now_playing_infobar"
+
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+
+    >
+
+    <TextView
+        android:id="@+id/now_playing_infobar_title"
+
+        android:text="@string/now_playing"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/now_playing_infobar_title_left_margin"
+
+        android:gravity="center_vertical"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>
