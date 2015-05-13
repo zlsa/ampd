@@ -13,7 +13,7 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:gravity="bottom"
-      sothree:umanoPanelHeight="?attr/actionBarSize"
+      sothree:umanoPanelHeight="@dimen/now_playing_infobar_height"
       sothree:umanoShadowHeight="4dp"
       sothree:umanoDragView="@+id/now_playing_infobar"
       >
