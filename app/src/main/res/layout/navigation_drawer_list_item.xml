@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingLeft="@dimen/navigation_drawer_item_padding_horizontal"
+    android:paddingRight="@dimen/navigation_drawer_item_padding_horizontal"
+
+    android:paddingTop="@dimen/navigation_drawer_item_padding_vertical"
+    android:paddingBottom="@dimen/navigation_drawer_item_padding_vertical"
+
+    android:background="?android:attr/selectableItemBackground"
+    >
+
+  <ImageView
+      android:id="@+id/item_icon"
+
+      android:layout_width="@dimen/navigation_drawer_icon_size"
+      android:layout_height="@dimen/navigation_drawer_icon_size"
+
+      android:gravity="center_vertical"
+
+      android:layout_marginRight="@dimen/navigation_drawer_item_icon_margin_right"
+      android:layout_marginEnd="@dimen/navigation_drawer_item_icon_margin_right"
+
+      android:alpha="0.6"
+      />
+
+  <TextView
+      android:id="@+id/item_label"
+
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+
+      android:gravity="center_vertical"
+
+      style="@style/NavigationDrawerItemLabel"
+      />
+
+</LinearLayout>
